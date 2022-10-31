@@ -1,0 +1,25 @@
+{
+  "name": "asynchrony",
+  "version": "1.0.0",
+  "description": "learing how to use asynchrony",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/je-martini/asynchrony.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "jesus martini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/je-martini/asynchrony/issues"
+  },
+  "homepage": "https://github.com/je-martini/asynchrony#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
