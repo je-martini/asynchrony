@@ -4,7 +4,7 @@
   "description": "learing how to use asynchrony",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/call_back/challenge.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/je-martini/asynchrony#readme",
   "dependencies": {
+    "node-fetch": "^3.2.10",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }

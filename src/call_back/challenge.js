@@ -2,13 +2,14 @@ const xml_http_request = require('xmlhttprequest').XMLHttpRequest;
 
 const API = 'https://api.escuelajs.co/api/v1';
 
+
 function fetch_data(url_API, callback) {
     let xhttp = new xml_http_request();
 
     xhttp.open('GET', url_API, true);
 
-    xhttp.onreadystatechange = function (event){
-        if (xhttp.ready_state === 4) {
+    xhttp.onreadystatechange = (event) => {
+        if (xhttp.readyState === 4) {
             if(xhttp.status === 200){
                 callback(null, JSON.parse(xhttp.responseText));
             } else { 
@@ -34,9 +35,6 @@ fetch_data(`${API}/products`, (error1, data1) =>
                     console.log(data1[0]);
                     console.log(data2.title);
                     console.log(data3.name);
-                }
-                );
-        }
-        );
-}
-);
+                });
+            });
+});
