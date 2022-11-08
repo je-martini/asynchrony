@@ -4,7 +4,7 @@
   "description": "learing how to use asynchrony",
   "main": "index.js",
   "scripts": {
-    "callback": "node src/call_back/challenge.js"
+    "deploy": "gh-pages -d src/challenge"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,7 @@
     "xmlhttprequest": "^1.8.0"
   },
   "type": "module",
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
