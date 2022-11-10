@@ -15,7 +15,7 @@ async function fetch_data(url_API) {
     const data = await response.json();
     return data;
 }
-
+    
 (async () => {
     try{
         const videos = await fetch_data(API);
