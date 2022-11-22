@@ -1,7 +1,9 @@
 const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCCAoRJGisF-85XQEvZnNxLQ&part=snippet%2Cid&order=date&maxResults=5';
 const hi = document.querySelector('.hi')
 function button_hi() {
-  let checking = checking + 1;
+  let checking;
+	checking = checking + 1;
+	console.log(checking);
 }
 const content = null || document.getElementById('content');
 
